@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="app.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<header class="insta-header">
@@ -17,28 +18,24 @@
 			
 		</ul>
 	</header>
+	<div class="about">
+		<a href="http://bpcoxjr.github.io/bruce-cox-portfolio/" target="_blank"><button id="aboutMe" type="submit" value="Go to portfolio">About</button></a>
+	</div>	
+	<hr class="hrTop">
 	<div class="explainer">
-		<p>Enter a search term in the box below to search Instagram for the five most recent photos posted with that tag. The page will periodically refresh to display the most up to date&nbsp;results.</p>
-	</div>
-	<div class="search">
-		<input id="searchBox" type="text" maxlength="25" placeholder="ENTER SEARCH TERM HERE...">	
-	</div>
-	<div class="submit">
-		<input id="submitSearch" type="submit" value="Find Photos">
-	</div>
-	<div class="photos">
-		<ul id="searchResults">
-
-		</ul>
+		<p>Enter a search term in the box below (no hashtag needed!) to search Instagram for the most recent photos posted with that tag. The page will cycle through the 20 most recent results.</p>
 	</div>
 	<div class="clearResults">
 		<button id="resetButton" type="reset" onclick="">New Search</button>
 	</div>
-	<footer class="footer">
-		<p>Designed by B. Patrick Cox, Jr
-		<br>
-		Connect with me <a href="http://bpcoxjr.github.io/bruce-cox-portfolio/" target="_blank">HERE</a>
-		</p>
-	</footer>
+	<div class="search">
+		<input id="searchBox" type="text" maxlength="25" name="hashTagSearch" placeholder="ENTER SEARCH TERM HERE...">	
+	</div>
+	<div class="submit">
+		<input id="submitSearch" type="submit" value="Find Photos">
+	</div>
+	<div class="photoSlideshow">
+			
+	</div>
 </body>
 </html>
