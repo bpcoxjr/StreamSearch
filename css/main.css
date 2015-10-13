@@ -134,6 +134,7 @@ img {
 .caption {
 	color: #3f729b;
 	margin-top: 1em;
+	word-wrap: break-all;
 }
 
 .clearResults {
@@ -191,7 +192,9 @@ img {
 	color: #3f729b;
 }
 
-.user {
+.user a {
 	color: #FF4D4D;
 	text-decoration: none;
 }
+
+.photo

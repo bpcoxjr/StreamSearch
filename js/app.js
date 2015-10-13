@@ -53,7 +53,7 @@ function showResults(results){
 		//append showUser and showCaption data to DOM
 		$(li).append(img, '<hr class="hrBottom">', '<p class=postedDate>' + "Posted on " + date + " by Instagram user:" + '</p>', showUser, showCaption, '<hr class="hrBottom">');
 		//wrap user name data in a link
-		showUser.wrap($('<a>').attr('href', instagramSearch + user));
+		showUser.wrapInner($('<a>').attr('href', instagramSearch + user));
 		img.wrap($('<a>').attr('href', value.link));
 		//append all data to the page
 		$(ul).append(li);
