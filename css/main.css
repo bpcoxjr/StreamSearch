@@ -30,7 +30,7 @@ ul {
 }
 
 .title-header {
-	color: #CF0000;
+	color: #FF4D4D;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 40px;
 	margin: 1px 0px 2px;
@@ -158,7 +158,7 @@ img {
 	margin: auto;
 	border: none;
 	border-radius: 5px;
-	background-color: #CF0000;
+	background-color: #FF4D4D;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 25px;
 	color: #FFF;
@@ -173,7 +173,7 @@ img {
 	margin: auto;
 	border: none;
 	border-radius: 5px;
-	background-color: #CF0000;
+	background-color: #FF4D4D;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 25px;
 	color: #FFF;
@@ -187,3 +187,11 @@ img {
 	margin-bottom: 1em;
 }
 
+.postedDate {
+	color: #3f729b;
+}
+
+.user {
+	color: #FF4D4D;
+	text-decoration: none;
+}
